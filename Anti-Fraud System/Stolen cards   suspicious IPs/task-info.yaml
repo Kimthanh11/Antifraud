@@ -1895,6 +1895,57 @@ files:
     \    }\n\n    public void setRole(String role){\n        this.role = role;\n \
     \   }\n}"
   learner_created: true
+- name: src/antifraud/entity/Address.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/controller/AddressController.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/persistence/AddressRepository.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/service/AddressService.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/request/AddressRequest.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/response/AddressResponse.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/request/DeleteAddressRequest.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/response/DeleteAddressResponse.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/entity/Card.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/persistence/CardRepository.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/service/CardService.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/request/CardRequest.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/response/CardResponse.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/dto/response/DeleteCardResponse.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/controller/CardController.java
+  visible: true
+  learner_created: true
+- name: src/antifraud/service/TransactionService.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/18070#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Aug 2023 08:41:53 UTC"
+record: 4

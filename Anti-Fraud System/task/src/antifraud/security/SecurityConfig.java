@@ -48,6 +48,10 @@ public class SecurityConfig {
                                 .requestMatchers(HttpMethod.PUT, "/api/auth/access").hasRole("ADMINISTRATOR")
                                 .requestMatchers(HttpMethod.PUT, "/api/auth/role").hasRole("ADMINISTRATOR")
                                 .requestMatchers(HttpMethod.DELETE, "/api/auth/user/**").hasRole("ADMINISTRATOR")
+                                .requestMatchers(HttpMethod.POST,"/api/antifraud/**").hasRole("SUPPORT")
+                                .requestMatchers(HttpMethod.DELETE,"/api/antifraud/suspicious-ip/**").hasRole("SUPPORT")
+                                .requestMatchers(HttpMethod.DELETE,"/api/antifraud/stolencard/**").hasRole("SUPPORT")
+                                .requestMatchers(HttpMethod.GET,"/api/antifraud/**").hasRole("SUPPORT")
                                 .anyRequest().denyAll()
                         // other matchers
                 )

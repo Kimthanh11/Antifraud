@@ -9,30 +9,30 @@
 5[0m[0;34m =========|_|==============|___/=/_/_/_/
 7[0m[0;34m :: Spring Boot ::                (v3.0.2)
 [0m[0;34m
-[0m[0;34m2023-08-24T17:33:55.372+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : Starting AntiFraudApplication using Java 17.0.7 with PID 26096 (started by admin in C:\Users\admin\IdeaProjects\Anti-Fraud System\Anti-Fraud System\task)
-º[0m[0;34m2023-08-24T17:33:55.376+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : No active profile set, falling back to 1 default profile: "default"
-²[0m[0;34m2023-08-24T17:33:56.319+07:00  INFO 26096 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-Ì[0m[0;34m2023-08-24T17:33:56.399+07:00  INFO 26096 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
-¤[0m[0;34m2023-08-24T17:33:57.107+07:00  INFO 26096 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-[0m[0;34m2023-08-24T17:33:57.119+07:00  INFO 26096 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-¦[0m[0;34m2023-08-24T17:33:57.119+07:00  INFO 26096 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-©[0m[0;34m2023-08-24T17:33:57.207+07:00  INFO 26096 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-¶[0m[0;34m2023-08-24T17:33:57.209+07:00  INFO 26096 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
-‘[0m[0;34m2023-08-24T17:33:57.349+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-À[0m[0;34m2023-08-24T17:33:57.613+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:service_db user=SA
-–[0m[0;34m2023-08-24T17:33:57.615+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-Ì[0m[0;34m2023-08-24T17:33:57.629+07:00  INFO 26096 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:service_db'
-°[0m[0;34m2023-08-24T17:33:57.812+07:00  INFO 26096 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-¨[0m[0;34m2023-08-24T17:33:57.872+07:00  INFO 26096 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
-û[0m[0;34m2023-08-24T17:33:58.101+07:00  WARN 26096 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-°[0m[0;34m2023-08-24T17:33:58.259+07:00  INFO 26096 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-ê[0m[0;34m2023-08-24T17:33:59.084+07:00  INFO 26096 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-º[0m[0;34m2023-08-24T17:33:59.092+07:00  INFO 26096 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-®[0m[0;34m2023-08-24T17:33:59.550+07:00  WARN 26096 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-¬[0m[0;34m2023-08-24T17:34:00.157+07:00  INFO 26096 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-ç[0m[0;34m2023-08-24T17:34:00.214+07:00  INFO 26096 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b908c6d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c2ddfeb, org.springframework.security.web.context.SecurityContextHolderFilter@58a5b69c, org.springframework.security.web.header.HeaderWriterFilter@158b8d10, org.springframework.security.web.authentication.logout.LogoutFilter@40e90634, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a0a0f12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@735dc133, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f752d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12921ee1, org.springframework.security.web.session.SessionManagementFilter@104e6540, org.springframework.security.web.access.ExceptionTranslationFilter@5578ed7e, org.springframework.security.web.access.intercept.AuthorizationFilter@33fc92d6]
-³[0m[0;34m2023-08-24T17:34:00.595+07:00  INFO 26096 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
-À[0m[0;34m2023-08-24T17:34:00.608+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : Started AntiFraudApplication in 5.619 seconds (process running for 6.618)
+Š[0m[0;34m2023-08-25T15:41:28.475+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : Starting AntiFraudApplication using Java 17.0.7 with PID 68 (started by admin in C:\Users\admin\IdeaProjects\Anti-Fraud System\Anti-Fraud System\task)
+·[0m[0;34m2023-08-25T15:41:28.480+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : No active profile set, falling back to 1 default profile: "default"
+¯[0m[0;34m2023-08-25T15:41:29.513+07:00  INFO 68 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+É[0m[0;34m2023-08-25T15:41:29.581+07:00  INFO 68 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+¡[0m[0;34m2023-08-25T15:41:30.260+07:00  INFO 68 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+[0m[0;34m2023-08-25T15:41:30.273+07:00  INFO 68 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+£[0m[0;34m2023-08-25T15:41:30.274+07:00  INFO 68 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+¦[0m[0;34m2023-08-25T15:41:30.421+07:00  INFO 68 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+³[0m[0;34m2023-08-25T15:41:30.423+07:00  INFO 68 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1884 ms
+Ž[0m[0;34m2023-08-25T15:41:30.551+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+½[0m[0;34m2023-08-25T15:41:30.771+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:service_db user=SA
+“[0m[0;34m2023-08-25T15:41:30.773+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+É[0m[0;34m2023-08-25T15:41:30.784+07:00  INFO 68 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:service_db'
+­[0m[0;34m2023-08-25T15:41:30.970+07:00  INFO 68 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+¥[0m[0;34m2023-08-25T15:41:31.028+07:00  INFO 68 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+ø[0m[0;34m2023-08-25T15:41:31.242+07:00  WARN 68 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+­[0m[0;34m2023-08-25T15:41:31.390+07:00  INFO 68 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ç[0m[0;34m2023-08-25T15:41:32.220+07:00  INFO 68 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+·[0m[0;34m2023-08-25T15:41:32.226+07:00  INFO 68 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+«[0m[0;34m2023-08-25T15:41:32.662+07:00  WARN 68 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+©[0m[0;34m2023-08-25T15:41:33.131+07:00  INFO 68 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+å[0m[0;34m2023-08-25T15:41:33.183+07:00  INFO 68 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e38329d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60be9fdf, org.springframework.security.web.context.SecurityContextHolderFilter@5dfd4fac, org.springframework.security.web.header.HeaderWriterFilter@4fe8ac61, org.springframework.security.web.authentication.logout.LogoutFilter@389fad5b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48064a5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f08e6d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70736b19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d816d32, org.springframework.security.web.session.SessionManagementFilter@2cbd855e, org.springframework.security.web.access.ExceptionTranslationFilter@30623109, org.springframework.security.web.access.intercept.AuthorizationFilter@7c08461b]
+°[0m[0;34m2023-08-25T15:41:33.526+07:00  INFO 68 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+½[0m[0;34m2023-08-25T15:41:33.540+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : Started AntiFraudApplication in 5.424 seconds (process running for 6.369)
 [0m[0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/user'
 [0m[0;34mrequest: '{
@@ -41,9 +41,9 @@
 [0m[0;34m}'
 s[0m[0;34mExpectations: 'In case of wrong data in request, endpoint must respond with BAD REQUEST  status (400).'
 [0m[0;34m-----
-¬[0;34m2023-08-24T17:34:00.976+07:00  INFO 26096 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-Ÿ[0m[0;34m2023-08-24T17:34:00.976+07:00  INFO 26096 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-—[0m[0;34m2023-08-24T17:34:00.978+07:00  INFO 26096 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+©[0;34m2023-08-25T15:41:33.929+07:00  INFO 68 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+œ[0m[0;34m2023-08-25T15:41:33.929+07:00  INFO 68 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+”[0m[0;34m2023-08-25T15:41:33.931+07:00  INFO 68 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 [0m[1;31m
 Start test 2[0m
 [0;34mTest case
@@ -127,11 +127,11 @@
 [0m[0;34m-----
 [0m[1;31m
 Start test 13[0m
-Œ[0;34m2023-08-24T17:34:02.957+07:00  INFO 26096 --- [       Thread-4] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-­[0m[0;34m2023-08-24T17:34:02.959+07:00  INFO 26096 --- [       Thread-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-¶[0m[0;34m2023-08-24T17:34:02.969+07:00  INFO 26096 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-›[0m[0;34m2023-08-24T17:34:02.972+07:00  INFO 26096 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-™[0m[0;34m2023-08-24T17:34:02.976+07:00  INFO 26096 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+‰[0;34m2023-08-25T15:41:36.078+07:00  INFO 68 --- [       Thread-4] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+ª[0m[0;34m2023-08-25T15:41:36.079+07:00  INFO 68 --- [       Thread-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+³[0m[0;34m2023-08-25T15:41:36.087+07:00  INFO 68 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+˜[0m[0;34m2023-08-25T15:41:36.090+07:00  INFO 68 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+–[0m[0;34m2023-08-25T15:41:36.092+07:00  INFO 68 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 	[0;34m
 4[0m[0;34m  .   ____          _            __ _ _
 5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -141,38 +141,38 @@
 5[0m[0;34m =========|_|==============|___/=/_/_/_/
 7[0m[0;34m :: Spring Boot ::                (v3.0.2)
 [0m[0;34m
-[0m[0;34m2023-08-24T17:34:13.374+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : Starting AntiFraudApplication using Java 17.0.7 with PID 26096 (started by admin in C:\Users\admin\IdeaProjects\Anti-Fraud System\Anti-Fraud System\task)
-º[0m[0;34m2023-08-24T17:34:13.374+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : No active profile set, falling back to 1 default profile: "default"
-²[0m[0;34m2023-08-24T17:34:13.633+07:00  INFO 26096 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-Ë[0m[0;34m2023-08-24T17:34:13.643+07:00  INFO 26096 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-¤[0m[0;34m2023-08-24T17:34:13.712+07:00  INFO 26096 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-[0m[0;34m2023-08-24T17:34:13.713+07:00  INFO 26096 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-¦[0m[0;34m2023-08-24T17:34:13.713+07:00  INFO 26096 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-©[0m[0;34m2023-08-24T17:34:13.737+07:00  INFO 26096 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-µ[0m[0;34m2023-08-24T17:34:13.738+07:00  INFO 26096 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 361 ms
-‘[0m[0;34m2023-08-24T17:34:13.768+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-Á[0m[0;34m2023-08-24T17:34:13.769+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:service_db user=SA
-–[0m[0;34m2023-08-24T17:34:13.769+07:00  INFO 26096 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-Ì[0m[0;34m2023-08-24T17:34:13.769+07:00  INFO 26096 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:service_db'
-°[0m[0;34m2023-08-24T17:34:13.806+07:00  INFO 26096 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-û[0m[0;34m2023-08-24T17:34:13.811+07:00  WARN 26096 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-°[0m[0;34m2023-08-24T17:34:13.815+07:00  INFO 26096 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-ê[0m[0;34m2023-08-24T17:34:13.866+07:00  INFO 26096 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-º[0m[0;34m2023-08-24T17:34:13.867+07:00  INFO 26096 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-®[0m[0;34m2023-08-24T17:34:13.907+07:00  WARN 26096 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-¬[0m[0;34m2023-08-24T17:34:13.991+07:00  INFO 26096 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-ç[0m[0;34m2023-08-24T17:34:14.002+07:00  INFO 26096 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71ea9a0d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62ba4c62, org.springframework.security.web.context.SecurityContextHolderFilter@6af447b6, org.springframework.security.web.header.HeaderWriterFilter@980ac1f, org.springframework.security.web.authentication.logout.LogoutFilter@59294f29, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@795d43d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47cce306, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ba04fb4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19fdcaba, org.springframework.security.web.session.SessionManagementFilter@37edb7fa, org.springframework.security.web.access.ExceptionTranslationFilter@10f7bc42, org.springframework.security.web.access.intercept.AuthorizationFilter@62a9d176]
-³[0m[0;34m2023-08-24T17:34:14.055+07:00  INFO 26096 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
-À[0m[0;34m2023-08-24T17:34:14.060+07:00  INFO 26096 --- [    Test worker] antifraud.AntiFraudApplication           : Started AntiFraudApplication in 0.707 seconds (process running for 20.07)
+Š[0m[0;34m2023-08-25T15:41:46.526+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : Starting AntiFraudApplication using Java 17.0.7 with PID 68 (started by admin in C:\Users\admin\IdeaProjects\Anti-Fraud System\Anti-Fraud System\task)
+·[0m[0;34m2023-08-25T15:41:46.527+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : No active profile set, falling back to 1 default profile: "default"
+¯[0m[0;34m2023-08-25T15:41:46.853+07:00  INFO 68 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+É[0m[0;34m2023-08-25T15:41:46.869+07:00  INFO 68 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+¡[0m[0;34m2023-08-25T15:41:46.957+07:00  INFO 68 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+[0m[0;34m2023-08-25T15:41:46.958+07:00  INFO 68 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+£[0m[0;34m2023-08-25T15:41:46.958+07:00  INFO 68 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+¦[0m[0;34m2023-08-25T15:41:46.980+07:00  INFO 68 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+²[0m[0;34m2023-08-25T15:41:46.980+07:00  INFO 68 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 450 ms
+Ž[0m[0;34m2023-08-25T15:41:47.011+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+¾[0m[0;34m2023-08-25T15:41:47.012+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:service_db user=SA
+“[0m[0;34m2023-08-25T15:41:47.013+07:00  INFO 68 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+É[0m[0;34m2023-08-25T15:41:47.013+07:00  INFO 68 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:service_db'
+­[0m[0;34m2023-08-25T15:41:47.053+07:00  INFO 68 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ø[0m[0;34m2023-08-25T15:41:47.057+07:00  WARN 68 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+­[0m[0;34m2023-08-25T15:41:47.061+07:00  INFO 68 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ç[0m[0;34m2023-08-25T15:41:47.160+07:00  INFO 68 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+·[0m[0;34m2023-08-25T15:41:47.160+07:00  INFO 68 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+«[0m[0;34m2023-08-25T15:41:47.212+07:00  WARN 68 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+©[0m[0;34m2023-08-25T15:41:47.317+07:00  INFO 68 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+ã[0m[0;34m2023-08-25T15:41:47.328+07:00  INFO 68 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b75d640, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e9b66ab, org.springframework.security.web.context.SecurityContextHolderFilter@e934485, org.springframework.security.web.header.HeaderWriterFilter@45fdd38d, org.springframework.security.web.authentication.logout.LogoutFilter@3c22a99a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6abdead7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f272dc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446dea16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@532b3244, org.springframework.security.web.session.SessionManagementFilter@376b6d7d, org.springframework.security.web.access.ExceptionTranslationFilter@33c5d3e, org.springframework.security.web.access.intercept.AuthorizationFilter@6232cde5]
+°[0m[0;34m2023-08-25T15:41:47.399+07:00  INFO 68 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+¼[0m[0;34m2023-08-25T15:41:47.411+07:00  INFO 68 --- [    Test worker] antifraud.AntiFraudApplication           : Started AntiFraudApplication in 0.91 seconds (process running for 20.24)
 [0m[1;31m
 Start test 14[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/list'
 9[0m[0;34mExpectations: 'After restart user must exist'
 [0m[0;34m-----
-¬[0;34m2023-08-24T17:34:14.065+07:00  INFO 26096 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-Ÿ[0m[0;34m2023-08-24T17:34:14.065+07:00  INFO 26096 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-—[0m[0;34m2023-08-24T17:34:14.066+07:00  INFO 26096 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+©[0;34m2023-08-25T15:41:47.422+07:00  INFO 68 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+œ[0m[0;34m2023-08-25T15:41:47.422+07:00  INFO 68 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+”[0m[0;34m2023-08-25T15:41:47.424+07:00  INFO 68 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 [0m[1;31m
 Start test 15[0m
 [0;34mTest case
@@ -416,121 +416,271 @@
 [0m[1;31m
 Start test 50[0m
 [0;34mTest case
-6[0m[0;34mTesting api: '/api/antifraud/transaction/'
-n[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to /api/antifraud/transaction/'
+5[0m[0;34mTesting api: '/api/antifraud/transaction'
+g[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/antifraud/transaction'
 [0m[0;34m-----
 [0m[1;31m
 Start test 51[0m
 [0;34mTest case
 5[0m[0;34mTesting api: '/api/antifraud/transaction'
-g[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/antifraud/transaction'
-[0m[0;34m-----
-[0m[1;31m
-Start test 52[0m
-[0;34mTest case
-6[0m[0;34mTesting api: '/api/antifraud/transaction/'
-h[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/antifraud/transaction/'
-[0m[0;34m-----
-[0m[1;31m
-Start test 53[0m
-[0;34mTest case
-5[0m[0;34mTesting api: '/api/antifraud/transaction'
 i[0m[0;34mExpectations: 'A user with role ANONYMOUS must not have access to /api/antifraud/transaction'
 [0m[0;34m-----
 [0m[1;31m
-Start test 54[0m
+Start test 52[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/user'
 d[0m[0;34mExpectations: 'A user with role ANONYMOUS must not have access to DELETE /api/auth/user'
 [0m[0;34m-----
 [0m[1;31m
-Start test 55[0m
+Start test 53[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/user'
 b[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to DELETE /api/auth/user'
 [0m[0;34m-----
 [0m[1;31m
-Start test 56[0m
+Start test 54[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/user'
 c[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to DELETE /api/auth/user'
 [0m[0;34m-----
 [0m[1;31m
-Start test 57[0m
-[0;34mTest case
-)[0m[0;34mTesting api: '/api/auth/user'
-c[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to DELETE /api/auth/user'
-[0m[0;34m-----
-[0m[1;31m
-Start test 58[0m
+Start test 55[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/list'
 ][0m[0;34mExpectations: 'A user with role ANONYMOUS must not have access to /api/auth/list'
 [0m[0;34m-----
 [0m[1;31m
-Start test 59[0m
+Start test 56[0m
 [0;34mTest case
 )[0m[0;34mTesting api: '/api/auth/list'
 \[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to /api/auth/list'
 [0m[0;34m-----
 [0m[1;31m
+Start test 57[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+s[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to GET /api/antifraud/suspicious-ip'
+[0m[0;34m-----
+[0m[1;31m
+Start test 58[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+n[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to GET /api/antifraud/suspicious-ip'
+[0m[0;34m-----
+[0m[1;31m
+Start test 59[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+t[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to POST /api/antifraud/suspicious-ip'
+[0m[0;34m-----
+[0m[1;31m
 Start test 60[0m
 [0;34mTest case
-+[0m[0;34mTesting api: '/api/auth/access'
-^[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to /api/auth/access'
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+o[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to POST /api/antifraud/suspicious-ip'
 [0m[0;34m-----
 [0m[1;31m
 Start test 61[0m
 [0;34mTest case
-+[0m[0;34mTesting api: '/api/auth/access'
-][0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/auth/access'
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+v[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to DELETE /api/antifraud/suspicious-ip'
 [0m[0;34m-----
 [0m[1;31m
 Start test 62[0m
 [0;34mTest case
-,[0m[0;34mTesting api: '/api/auth/access/'
-_[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to /api/auth/access/'
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+q[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to DELETE /api/antifraud/suspicious-ip'
 [0m[0;34m-----
 [0m[1;31m
 Start test 63[0m
 [0;34mTest case
-,[0m[0;34mTesting api: '/api/auth/access/'
-^[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/auth/access/'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+p[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to GET /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 64[0m
 [0;34mTest case
-+[0m[0;34mTesting api: '/api/auth/access'
-_[0m[0;34mExpectations: 'A user with role ANONYMOUS must not have access to /api/auth/access'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+k[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to GET /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 65[0m
 [0;34mTest case
-)[0m[0;34mTesting api: '/api/auth/role'
-[[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/auth/role'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+q[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to POST /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 66[0m
 [0;34mTest case
-)[0m[0;34mTesting api: '/api/auth/role'
-\[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to /api/auth/role'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+l[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to POST /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 67[0m
 [0;34mTest case
-)[0m[0;34mTesting api: '/api/auth/role'
-][0m[0;34mExpectations: 'A user with role ANONYMOUS must not have access to /api/auth/role'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+s[0m[0;34mExpectations: 'A user with role ADMINISTRATOR must not have access to DELETE /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 68[0m
 [0;34mTest case
-*[0m[0;34mTesting api: '/api/auth/role/'
-\[0m[0;34mExpectations: 'A user with role SUPPORT must not have access to /api/auth/role/'
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+n[0m[0;34mExpectations: 'A user with role MERCHANT must not have access to DELETE /api/antifraud/stolencard'
 [0m[0;34m-----
 [0m[1;31m
 Start test 69[0m
 [0;34mTest case
-*[0m[0;34mTesting api: '/api/auth/role/'
-][0m[0;34mExpectations: 'A user with role MERCHANT must not have access to /api/auth/role/'
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+B[0m[0;34mExpectations: 'Endpoint must respond with empty array'
+[0m[0;34m-----
+[0m[1;31m
+Start test 70[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+:[0m[0;34mExpectations: 'IP must be added to Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 71[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+r[0m[0;34mExpectations: 'If IP already in database,  endpoint must respond with the HTTP Conflict status (409).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 72[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+g[0m[0;34mExpectations: 'If IP doesn't have right format, respond with HTTP Bad Request status (400)'
+[0m[0;34m-----
+[0m[1;31m
+Start test 73[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+g[0m[0;34mExpectations: 'If IP doesn't have right format, respond with HTTP Bad Request status (400)'
+[0m[0;34m-----
+[0m[1;31m
+Start test 74[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+:[0m[0;34mExpectations: 'IP must be added to Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 75[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+B[0m[0;34mExpectations: 'Endpoint must responds with Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 76[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+>[0m[0;34mExpectations: 'IP must be removed from Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 77[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+f[0m[0;34mExpectations: 'If IP not found in database, respond with the HTTP Not Found status (404).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 78[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+g[0m[0;34mExpectations: 'If IP doesn't have right format, respond with HTTP Bad Request status (400)'
+[0m[0;34m-----
+[0m[1;31m
+Start test 79[0m
+[0;34mTest case
+7[0m[0;34mTesting api: '/api/antifraud/suspicious-ip'
+>[0m[0;34mExpectations: 'IP must be removed from Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 80[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+B[0m[0;34mExpectations: 'Endpoint must respond with empty array'
+[0m[0;34m-----
+[0m[1;31m
+Start test 81[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+>[0m[0;34mExpectations: 'A card must be added to Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 82[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+z[0m[0;34mExpectations: 'If card-number already in database, endpoint must respond with the HTTP Conflict status (409).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 83[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+[0m[0;34mExpectations: 'If card-number doesn't have right format, endpoint must respond with HTTP Bad Request status (400).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 84[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+z[0m[0;34mExpectations: 'If checksum of card-number is wrong, endpoint must respond with HTTP Bad Request status (400).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 85[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+>[0m[0;34mExpectations: 'A card must be added to Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 86[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+B[0m[0;34mExpectations: 'Endpoint must responds with Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 87[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+@[0m[0;34mExpectations: 'Card must be removed from Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 88[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+o[0m[0;34mExpectations: 'If card-number not found in database, respond with the HTTP Not Found status (404).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 89[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+[0m[0;34mExpectations: 'If card-number doesn't have right format, endpoint must respond with HTTP Bad Request status (400).'
+[0m[0;34m-----
+[0m[1;31m
+Start test 90[0m
+[0;34mTest case
+4[0m[0;34mTesting api: '/api/antifraud/stolencard'
+@[0m[0;34mExpectations: 'Card must be removed from Black List'
+[0m[0;34m-----
+[0m[1;31m
+Start test 91[0m
+[0;34mTest case
+5[0m[0;34mTesting api: '/api/antifraud/transaction'
+X[0m[0;34mExpectations: 'Transaction must be PROHIBITED due to - suspicious ip reason'
+[0m[0;34m-----
+[0m[1;31m
+Start test 92[0m
+[0;34mTest case
+5[0m[0;34mTesting api: '/api/antifraud/transaction'
+V[0m[0;34mExpectations: 'Transaction must be PROHIBITED due to - stolen card reason'
+[0m[0;34m-----
+[0m[1;31m
+Start test 93[0m
+[0;34mTest case
+5[0m[0;34mTesting api: '/api/antifraud/transaction'
+f[0m[0;34mExpectations: 'Transaction must be PROHIBITED due to - stolen card, suspicious ip reasons'
+[0m[0;34m-----
+[0m[1;31m
+Start test 94[0m
+[0;34mTest case
+5[0m[0;34mTesting api: '/api/antifraud/transaction'
+n[0m[0;34mExpectations: 'Transaction must be PROHIBITED due to - amount, stolen card, suspicious ip reasons'
 [0m[0;34m-----
 [0m

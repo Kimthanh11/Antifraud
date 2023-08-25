@@ -42,11 +42,6 @@ public class UserService {
         return (List<User>) userRepository.findAll();
     }
 
-    public User findUserByUsername(String username) {
-        return userRepository.findByUsername(username)
-                .orElse(null);
-    }
-
     public User deleteUserByUsername(String username) {
         User userToDelete = userRepository.findByUsername(username).orElse(null);
 
